@@ -107,7 +107,6 @@ function App() {
       <Modal
         isOpen={isModalOpen}
         setIsOpen={setIsModalOpen}
-        currentCounter={counter}
       />
     </>
   );
