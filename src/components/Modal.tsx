@@ -37,7 +37,8 @@ const modalVariants: Variants = {
 };
 
 export const Modal = ({ isOpen, currentCounter, setIsOpen }: ModalProps) => {
-  const fact = getFunFact(currentCounter);
+  // const fact = getFunFact(currentCounter);
+  const fact = getFunFact();
 
   return (
     <>
