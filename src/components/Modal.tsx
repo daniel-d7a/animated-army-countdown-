@@ -36,7 +36,7 @@ const modalVariants: Variants = {
   exit: initailStyles,
 };
 
-export const Modal = ({ isOpen, currentCounter, setIsOpen }: ModalProps) => {
+export const Modal = ({ isOpen, setIsOpen }: ModalProps) => {
   // const fact = getFunFact(currentCounter);
   const fact = getFunFact();
 
