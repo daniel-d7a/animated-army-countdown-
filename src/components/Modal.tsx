@@ -1,7 +1,7 @@
 import { getFunFact } from "@/lib/getFunFact";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion, Variants } from "framer-motion";
-import { Dispatch, memo, SetStateAction, useEffect } from "react";
+import { Dispatch, memo, SetStateAction } from "react";
 
 type ModalProps = {
   isOpen: boolean;
@@ -37,7 +37,6 @@ const modalVariants: Variants = {
 export const Modal = memo(({ isOpen, setIsOpen }: ModalProps) => {
   // const fact = getFunFact(currentCounter);
   const fact = getFunFact();
-
 
   return (
     <>
