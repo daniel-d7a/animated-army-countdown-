@@ -33,6 +33,12 @@ body {
   font-weight: 300;
   font-style: normal;
 }
+.rubik-semi {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .red-glow {
   background-color: red;
